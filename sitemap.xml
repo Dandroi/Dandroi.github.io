@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://Dandroi.github.io/</loc>
-    <lastmod>2025-07-23T00:25:16+08:00</lastmod>
+    <lastmod>2025-07-23T02:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://Dandroi.github.io/about/</loc>
+    <lastmod>2025-07-23T02:00:00+09:00</lastmod>
   </url><url>
     <loc>https://Dandroi.github.io/posts/</loc>
     <lastmod>2025-07-23T00:25:16+08:00</lastmod>
@@ -17,5 +20,7 @@
     <loc>https://Dandroi.github.io/categories/</loc>
   </url><url>
     <loc>https://Dandroi.github.io/tags/</loc>
+  </url><url>
+    <loc>https://Dandroi.github.io/search/</loc>
   </url>
 </urlset>
