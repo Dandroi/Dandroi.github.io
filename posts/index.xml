@@ -6,8 +6,34 @@
     <description>Recent content in Posts on Dandroi的个人博客</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 23 Jul 2025 00:11:33 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 00:25:16 +0800</lastBuildDate>
     <atom:link href="https://Dandroi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从零到一：5小时搭建个人博客</title>
+      <link>https://Dandroi.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%805%E5%B0%8F%E6%97%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 23 Jul 2025 00:25:16 +0800</pubDate>
+      <guid>https://Dandroi.github.io/posts/%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%805%E5%B0%8F%E6%97%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;tags-建站-hugo-github-踩坑记录-教程-问题日志&#34;&gt;title: &amp;ldquo;从零到一：我的个人博客自动化部署问题日志&amp;rdquo;
+tags: [&amp;ldquo;建站&amp;rdquo;, &amp;ldquo;Hugo&amp;rdquo;, &amp;ldquo;GitHub&amp;rdquo;, &amp;ldquo;踩坑记录&amp;rdquo;, &amp;ldquo;教程&amp;rdquo;, &amp;ldquo;问题日志&amp;rdquo;]&lt;/h2&gt;
+&lt;p&gt;本文是一份详尽的技术问题日志，旨在精准记录我在24小时内，从零基础开始，通过 Hugo 和 GitHub Actions 搭建一个全自动个人博客所遇到的所有障碍、诊断过程及最终解决方案。&lt;/p&gt;
+&lt;h3 id=&#34;初始目标&#34;&gt;初始目标&lt;/h3&gt;
+&lt;p&gt;使用 Hugo 静态网站生成器和 GitHub Pages 服务，构建一个可以通过 &lt;code&gt;git push&lt;/code&gt; 自动更新内容的个人博客。&lt;/p&gt;
+&lt;h3 id=&#34;问题日志&#34;&gt;问题日志&lt;/h3&gt;
+&lt;h4 id=&#34;阶段一本地环境搭建&#34;&gt;&lt;strong&gt;阶段一：本地环境搭建&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;问题 #1：&lt;code&gt;&#39;git&#39; 不是内部或外部命令...&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;触发操作：&lt;/strong&gt; 在 Windows 11 的 CMD/PowerShell 中首次运行 &lt;code&gt;git init&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;诊断：&lt;/strong&gt; 这是典型的环境变量缺失。系统未安装 Git，或已安装但其可执行文件路径未被添加到系统的 PATH 环境变量中。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解决方案：&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;从 &lt;code&gt;git-scm.com&lt;/code&gt; 下载并安装 Git for Windows。&lt;/li&gt;
+&lt;li&gt;在安装向导的 &lt;code&gt;Adjusting your PATH environment&lt;/code&gt; 步骤，必须选择 &lt;code&gt;Git from the command line and also from 3rd-party software&lt;/code&gt; 选项，以确保 Git 命令在全局可用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;问题 #2：&lt;code&gt;fatal: ... Connection was reset&lt;/code&gt; (下载主题时)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>「交朋友」的系统解构：一次思想实验</title>
       <link>https://Dandroi.github.io/posts/%E6%80%9D%E7%BB%B4%E9%A2%A0%E8%A6%86%E8%80%85%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
